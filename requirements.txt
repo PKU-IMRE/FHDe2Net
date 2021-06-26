@@ -1,0 +1,10 @@
+numpy
+opencv-python
+Pillow
+scipy
+scikit-image
+torch==1.0.1
+torchvision==0.2.0
+torchfile
+tqdm
+

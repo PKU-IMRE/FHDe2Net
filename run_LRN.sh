@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+CUDA_VISIBLE_DEVICES=0,1 python2.7 train_LRN.py --dataroot "/media/he/80FE99D1FE99BFB8/longmao_final/train" --valDataroot "/media/he/80FE99D1FE99BFB8/longmao_final/val" --pre "" --name "LRN" --exp "LRN" --netGDN 'ckpt/netGDN.pth' --display_port 8099  --originalSize_h 1080 --originalSize_w 1920 --imageSize_h 1024 --imageSize_w 1024 --batchSize 2 --list_file 'list_7000_f1000.txt'
